@@ -7,6 +7,7 @@ To build this app, we'll be using the following tools and technologies:
 - Express: a web application framework for Node.js  
 - MongoDB: a NoSQL database that we'll use to store our data  
 - Mongoose: a MongoDB object modeling tool that allows us to interact with the database using JavaScript objects  
+
 Let's get started!  
 
 ## Step 1: Set up the project
@@ -23,7 +24,7 @@ npm install express mongoose body-parser
 ```
 This will install Express, Mongoose, and the Body Parser middleware, which we'll use to parse incoming request bodies.  
 
-##Step 2: Create the server and database connection  
+## Step 2: Create the server and database connection  
 Next, we'll create a new file called index.js and add the following code:  
 ```
 const express = require('express');
@@ -62,7 +63,7 @@ This code creates a new Express application, connects to a MongoDB database name
 ## Step 3: Add routes for CRUD operations  
 Now that we have our server and database set up, we can start adding routes to handle the CRUD operations.  
 
-###Read (GET) operation  
+### Read (GET) operation  
 Let's start by adding a route to retrieve all items from the database. Add the following code to your index.js file:  
 ```
 // Get all items
